@@ -8,3 +8,8 @@ def same_type_array(array, type):
     filtered_items = [item for item in array if isinstance(item, type)]
 
     return filtered_items
+
+
+def largest_number(array):
+    maxNum = max(array)
+    return maxNum
