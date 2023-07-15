@@ -13,3 +13,14 @@ def same_type_array(array, type):
 def largest_number(array):
     maxNum = max(array)
     return maxNum
+
+
+def alg_handling(array):
+    letters_array = same_type_array(array, str)
+    numbers_array = same_type_array(array, int)
+    max_number = largest_number(numbers_array)
+
+    return [letters_array, numbers_array, max_number]
+
+
+print(alg_handling(mixed_array))
