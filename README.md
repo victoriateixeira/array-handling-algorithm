@@ -25,7 +25,7 @@ mixed_array = ["a", 10, "b", "hello", 122, 15]
 result = alg_handling(mixed_array)
 print(result)
 ```
-The output will be a list containing the array of letters, the array of numbers, and the largest number.
+The output will be a list containing the array of letters, the array of numbers, and the largest number in the aforementioned array of numbers.
 
 ### Note
 The algorithm assumes that the input array is a one-dimensional array.
